@@ -1,10 +1,6 @@
 from http import HTTPStatus
 
-from django.contrib.auth import get_user_model
-
 from notes.tests.test_content import TestBase
-
-User = get_user_model()
 
 
 class TestRoutes(TestBase):

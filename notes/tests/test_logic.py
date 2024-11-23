@@ -1,13 +1,10 @@
 from http import HTTPStatus
 
-from django.contrib.auth import get_user_model
 from pytils.translit import slugify
 
 from notes.forms import WARNING
 from notes.models import Note
 from notes.tests.test_content import TestBase
-
-User = get_user_model()
 
 
 class TestCommentCreation(TestBase):
