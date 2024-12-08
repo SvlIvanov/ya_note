@@ -1,6 +1,6 @@
 from http import HTTPStatus
 
-from notes.tests.test_content import TestBase
+from .conf_test import TestBase
 
 
 class TestRoutes(TestBase):
